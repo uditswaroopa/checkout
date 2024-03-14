@@ -5,7 +5,7 @@ function Expresscheckout() {
   return (
     <>
     <div className='mr-4 relative w-96 h-auto'>
-    <p className='text-4xl sm:text-wrap text-[#5F256C]'>Unlock your reading</p>
+    <p className='text-4xl sm:text-wrap text-[#5F256C] font-serif-display'>Unlock Your Reading</p>
     <p className='font mt-4'>Express Checkout</p>
 
     <div className='flex mt-4'>
