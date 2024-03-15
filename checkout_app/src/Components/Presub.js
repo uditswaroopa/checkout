@@ -1,9 +1,10 @@
 import React from 'react'
+import Leftfootui from './Leftfootui'
 
 function Presub() {
   return (
     <>
-<div className='ml-4 p-6 mt-24 w-96 bg-yellow-50 rounded-lg'>
+<div className='sm:ml-0 md:ml-6 p-6 mt-24 w-96 bg-yellow-50 rounded-lg'>
 <div className=''>
 <div className='flex space-x-12'>
      <p className='text-xl mt-16 font font-bold'>  Premium Reading  </p>
@@ -19,9 +20,7 @@ function Presub() {
     </div>
 
 <div>
-    <div>
-
-    </div>
+    <Leftfootui/>
 </div>
      </div>
    

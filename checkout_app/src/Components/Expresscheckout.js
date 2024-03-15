@@ -4,9 +4,9 @@ import Creditcardui from './Creditcardui'
 function Expresscheckout() {
   return (
     <>
-    <div className='mr-4 relative w-96 h-auto'>
+    <div className='flex flex-col justify-center items-center mt-8 md:mr-6 relative w-96 h-auto'>
     <p className='text-4xl sm:text-wrap text-[#5F256C] font-serif-display'>Unlock Your Reading</p>
-    <p className='font mt-4'>Express Checkout</p>
+    <p className='font mt-4 text-[#C1C1C1]'>Express Checkout</p>
 
     <div className='flex mt-4'>
         <div className='border border-black rounded-full'>
@@ -20,7 +20,7 @@ function Expresscheckout() {
         </div>
 </div>
 
-<p className='mt-4'>Or Pay With Card </p>
+<p className='mt-4 text-[#C1C1C1]'>Or Pay With Card </p>
 <div className=' left-0'>
     <Creditcardui/>
     </div>

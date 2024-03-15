@@ -7,7 +7,7 @@ function Creditcardui() {
   const [name,setName]=useState("");
 
   return (
-    <div className='shadow-2xl w-23 h-44   bg-white-100 rounded-lg mt-4'>
+    <div className='shadow-2xl w-23 h-44   bg-white-100 rounded-lg mt-4 border border-gray-300'>
 
       <input
       className='w-11/12  mx-2 mt-4 border border-gray-200 rounded-sm'
@@ -80,7 +80,7 @@ function Creditcardui() {
                       maxLength={3}
                       required
                       value={cvc}
-                      onChange={(e) => setCvc(e.target.value)}
+                      onChange={(e) => setName(e.target.value)}
                     />
 <div className='border w-20 mt-4 border-blue-900 rounded-xl  text-center  '>
                     <button className='' >Pay</button>
