@@ -4,9 +4,9 @@ import Leftfootui from './Leftfootui'
 function Presub() {
   return (
     <>
-<div className='sm:ml-0 md:ml-6 p-6 mt-24 w-96 bg-yellow-50 rounded-lg'>
+<div className='sm:ml-0 md:ml-6 p-6 mt-24 w-96 bg-[#FBF9F7] rounded-lg'>
 <div className=''>
-<div className='flex space-x-12'>
+<div className='flex space-x-12 place-content-between'>
      <p className='text-xl mt-16 font font-bold'>  Premium Reading  </p>
      <p className='text-xl mt-16'>  $0.00</p>
      </div>
