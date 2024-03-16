@@ -10,13 +10,13 @@ function Expresscheckout() {
 
     <div className='flex mt-4'>
         <div className='border border-black rounded-full'>
-       <p className='mx-4'> Paypal</p>                 
+       <p className='mx-4'> <img className='w-12 mt-1.5' src='/Group 210.png'></img></p>                 
         </div>
         <div className='border border-black rounded-full mx-3'>
-        <p className='mx-4'> Pay</p>
+        <p className='mx-4'>  <img className='w-11 h-4 mt-1.5' src='/Vector.png'></img></p>
         </div>
         <div className='border border-black rounded-full'>
-      <p className='mx-4'>  Pay</p> 
+      <p className='mx-4'>  <img className='w-11 h-4 mt-1.5' src='/Group 212.png'></img></p> 
         </div>
 </div>
 

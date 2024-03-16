@@ -2,6 +2,7 @@ import React from 'react'
 
 function Footerui() {
   return (
+    <div className='flex justify-center items-center h-full'>
     <div className='  md:grid grid-rows-3 grid-flow-col gap-4 sm:grid-cols-1'>
     <div className='row-end-3 mt-4 row-span-2 md:col-span-1'>
     <label className=' text-[#5F256C] font font-bold'>Lifetime Updates</label>
@@ -19,6 +20,7 @@ function Footerui() {
 <p className=' text-wrap mt-2 w-64 '>We don't record your payment details. They'll be sent over a secure, encrypted channel</p>
 </div>
       
+    </div>
     </div>
   )
 }
