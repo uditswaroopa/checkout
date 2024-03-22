@@ -24,12 +24,13 @@ $0.00
       </div>
       <div className='mt-2'>
       {
-(convert==1)? <div className='border border-black w-auto  rounded-[5px]'><input className='w-10/12 h-8 focus:outline-none' value={val} ></input><button className='bg-[#5F256C] text-white rounded-sm w-12' onClick={newvaluechanger}>APPLY</button></div>:(convert!==5)?(<button onClick={valuechanger}>+ Add Promotion Code</button>):""
+
+(convert==1)? <div className='border border-black-500 w-auto  rounded-[5px] flex'><input className='w-10/12 h-8 focus:outline-none' value={val} ></input><button className='bg-[#5F256C] text-white  w-16 p-1 m-1 rounded-lg' onClick={newvaluechanger}>APPLY</button></div>:(convert!==5)?(<button onClick={valuechanger}>+ Add Promotion Code</button>):""
      
       }
       {
         (convert==5)?<div className='flex place-content-between'>
-          <div className='bg-gray-300'>
+          <div className='bg-gray-300 p-1 rounded-lg'>
 SAVE 20 ×
           </div>
           <div>

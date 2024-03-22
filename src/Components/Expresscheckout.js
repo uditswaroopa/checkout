@@ -6,7 +6,7 @@ function Expresscheckout() {
     <>
     <div className='flex flex-col justify-center items-center mt-8 md:mr-6 relative w-96 h-auto'>
     <p className='text-4xl sm:text-wrap text-[#5F256C] font-serif-display'>Unlock Your Reading</p>
-    <p className='font mt-4 text-[#C1C1C1]'>Express Checkout</p>
+    <div className='font mt-4 text-[#C1C1C1] flex m-2'><img className='h-0.5 w-8 mr-2 mt-3 ' src='./line.png'></img><p>Express Checkout</p>  <img className='h-0.5 w-8 mr-2 ml-2 mt-3' src='./line.png'></img></div>
 
     <div className='flex mt-4'>
         <div className='border border-black rounded-full'>
@@ -20,7 +20,7 @@ function Expresscheckout() {
         </div>
 </div>
 
-<p className='mt-4 text-[#C1C1C1]'>Or Pay With Card </p>
+<div className='mt-4 text-[#C1C1C1] flex m-4'><img className='h-0.5 w-8 mr-2 mt-3' src='./line.png'></img><p>Or Pay With Card </p><img className='h-0.5 w-8 mr-2 ml-2 mt-3' src='./line.png'></img></div>
 <div className=' left-0'>
     <Creditcardui/>
     </div>
